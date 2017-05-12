@@ -8,7 +8,8 @@ var app = angular.module("electricoinDapp", ['ngRoute']);
 
 app.config(function($routeProvider) {
   $routeProvider.when('/', {
-    templateUrl: 'views/index.html',
+    templateUrl: 'views/main.html',
+    templateUrl: 'views/events.html',
     controller: 'DashboardController'
   }).otherwise({redirectTo: '/'});
 });
