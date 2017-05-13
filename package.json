@@ -7,8 +7,7 @@
     "build": "webpack",
     "dev": "webpack-dev-server"
   },
-  "author": "Douglas von Kohorn",
-  "license": "MIT",
+  "author": "RegHack DownUnder",
   "devDependencies": {
     "babel-cli": "^6.22.2",
     "babel-core": "^6.22.1",
